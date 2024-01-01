@@ -1,2 +1,3 @@
 # Quran
-Multiplatform Quran application
+
+Quran application

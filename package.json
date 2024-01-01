@@ -1,21 +1,33 @@
 {
-  "name": "quran",
-  "version": "1.0.0",
-  "description": "Multiplatform Quran application",
-  "scripts": {
-    "test": "Test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Huda-Academy/Quran.git"
-  },
-  "keywords": [
-    "Quran"
-  ],
-  "author": "Nader Elshehabi",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/Huda-Academy/Quran/issues"
-  },
-  "homepage": "https://github.com/Huda-Academy/Quran#readme"
+    "name": "quran",
+    "version": "1.0.0",
+    "description": "Multiplatform Quran application",
+    "scripts": {
+        "build": "run-p build:*",
+        "build:main": " ",
+        "test": "run-s build test:*",
+        "test:spelling": "cspell \"{**/*.md,**/*.cs}\"",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Huda-Academy/Quran.git"
+    },
+    "keywords": [
+        "Quran"
+    ],
+    "author": "Nader Elshehabi",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/Huda-Academy/Quran/issues"
+    },
+    "homepage": "https://github.com/Huda-Academy/Quran#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^18.4.3",
+        "@commitlint/config-conventional": "^18.4.3",
+        "commitlint": "^18.4.3",
+        "cspell": "^8.3.0",
+        "husky": "^8.0.3",
+        "npm-run-all": "^4.1.5"
+    }
 }
