@@ -1,0 +1,21 @@
+{
+  "name": "quran",
+  "version": "1.0.0",
+  "description": "Multiplatform Quran application",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huda-Academy/Quran.git"
+  },
+  "keywords": [
+    "Quran"
+  ],
+  "author": "Nader Elshehabi",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Huda-Academy/Quran/issues"
+  },
+  "homepage": "https://github.com/Huda-Academy/Quran#readme"
+}
